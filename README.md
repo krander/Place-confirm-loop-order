@@ -9,8 +9,3 @@ The order id should automatically increment starting from 1, and the “date pla
 Then output to the user those details.
 
 This app should let them continue to enter as many new orders as they want. 
-
-Hints:
-- The logic to ask the user for order details and spitting them back out needs to be repeated. Sounds like an opportunity to separate that logic out into a function/method
-- Your main class can keep track of the “current order ID.” Then when you need to create a new order, you can grab your value from there.
-- Remember the “new” keyword to create new complex types.
